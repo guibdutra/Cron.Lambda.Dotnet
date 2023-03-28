@@ -1,0 +1,9 @@
+{
+  "Rule": "events-rulecron-lambda-dotnet",
+  "Targets": [
+    {
+      "Id": "id-cron-lambda-dotnet", 
+      "Arn": "arn:aws:lambda:sa-east-1:000000000000:function:function-cron-lambda-dotnet"
+    }
+  ]
+}

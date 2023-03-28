@@ -1,0 +1,34 @@
+# De . NET Core 3.0 você pode usar o comando: `dotnet new gitignore` para gerar um arquivo .gitignore personalizável
+
+*.swp
+*. *~
+project.lock.json
+. DS_Store
+*.pyc
+
+# Código do Visual Studio
+.vscode
+
+# Arquivos específicos do usuário
+*.suo
+*.usuário
+*.userosscache
+*.sln.docstates
+
+# Resultados de construção
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+construir/
+bld/
+[Bb]in/
+[Oo]bj/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# Visual Studio 2015
+.vs/
